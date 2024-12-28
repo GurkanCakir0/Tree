@@ -29,6 +29,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -324,6 +325,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             this.Controls.Add(this.bul);
             this.Controls.Add(this.sil);
             this.Controls.Add(this.ekle);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AĞAÇ VERİ MODELİ PROJESİ";

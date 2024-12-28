@@ -76,16 +76,8 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
 
         private void dugum_Click(object sender, EventArgs e)
         {
-            //treeView1.Nodes.Clear();
-            //List<string> treenode = new List<string>();
-            //tree.TreeNODE(treenode, tree.root1);
-            //foreach (string noder in treenode)
-            //{
-            //    treeView1.Nodes.Add(noder);
-            //}
-
             textBox10.Clear();
-            tree.PrintTree(tree.root1, 0, textBox10);
+            tree.PrintTree(tree.root1, 0, 0, textBox10);
         }
 
         private void Form1_Load(object sender, EventArgs e)

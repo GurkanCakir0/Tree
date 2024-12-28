@@ -212,14 +212,19 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             return LeafCount(root1.Left) + LeafCount(root1.Right);
         }
 
-        public void PrintTree(Tree node, int level, TextBox textBox)
+        public void PrintTree(Tree node, int level, int indent, TextBox textBox)
         {
             if (node != null)
             {
-                PrintTree(node.Right, level + 1, textBox);
-                string nodeRepresentation = new string(' ', 4 * level) + node.root;
-                textBox.AppendText(nodeRepresentation + Environment.NewLine);
-                PrintTree(node.Left, level + 1, textBox);
+                PrintTree(node.Right, level + 1, indent + 4, textBox);
+                string nodeRepresentation = new string(' ', indent) + node.root;
+                if (textBox.Lines.Length > 0 && !textBox.Lines.Last().EndsWith(Environment.NewLine))
+                {
+                    textBox.AppendText(Environment.NewLine);
+                }
+                textBox.AppendText(nodeRepresentation);
+                textBox.AppendText("    ");
+                PrintTree(node.Left, level + 1, indent + 4, textBox);
             }
         }
     }

@@ -30,7 +30,6 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.treeView1 = new System.Windows.Forms.TreeView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -59,14 +58,6 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // treeView1
-            // 
-            this.treeView1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.treeView1.Location = new System.Drawing.Point(534, 195);
-            this.treeView1.Name = "treeView1";
-            this.treeView1.Size = new System.Drawing.Size(432, 312);
-            this.treeView1.TabIndex = 38;
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label4);
@@ -82,9 +73,9 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.textBox9);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(19, 192);
+            this.groupBox1.Location = new System.Drawing.Point(12, 324);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(509, 315);
+            this.groupBox1.Size = new System.Drawing.Size(516, 315);
             this.groupBox1.TabIndex = 37;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ağaç Bilgileri";
@@ -256,9 +247,9 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // bilgi
             // 
             this.bilgi.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bilgi.Location = new System.Drawing.Point(19, 151);
+            this.bilgi.Location = new System.Drawing.Point(12, 283);
             this.bilgi.Name = "bilgi";
-            this.bilgi.Size = new System.Drawing.Size(509, 38);
+            this.bilgi.Size = new System.Drawing.Size(516, 38);
             this.bilgi.TabIndex = 30;
             this.bilgi.Text = "AĞAÇ BİLGİLERİNİ GÖSTER";
             this.bilgi.UseVisualStyleBackColor = true;
@@ -267,7 +258,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // dugum
             // 
             this.dugum.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dugum.Location = new System.Drawing.Point(534, 151);
+            this.dugum.Location = new System.Drawing.Point(534, 13);
             this.dugum.Name = "dugum";
             this.dugum.Size = new System.Drawing.Size(432, 38);
             this.dugum.TabIndex = 29;
@@ -278,9 +269,9 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // bul
             // 
             this.bul.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bul.Location = new System.Drawing.Point(534, 94);
+            this.bul.Location = new System.Drawing.Point(12, 233);
             this.bul.Name = "bul";
-            this.bul.Size = new System.Drawing.Size(432, 35);
+            this.bul.Size = new System.Drawing.Size(516, 35);
             this.bul.TabIndex = 28;
             this.bul.Text = "DÜĞÜM BUL";
             this.bul.UseVisualStyleBackColor = true;
@@ -289,9 +280,9 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // sil
             // 
             this.sil.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sil.Location = new System.Drawing.Point(534, 53);
+            this.sil.Location = new System.Drawing.Point(12, 192);
             this.sil.Name = "sil";
-            this.sil.Size = new System.Drawing.Size(432, 35);
+            this.sil.Size = new System.Drawing.Size(516, 35);
             this.sil.TabIndex = 27;
             this.sil.Text = "DÜĞÜM SİL";
             this.sil.UseVisualStyleBackColor = true;
@@ -300,9 +291,9 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // ekle
             // 
             this.ekle.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ekle.Location = new System.Drawing.Point(534, 12);
+            this.ekle.Location = new System.Drawing.Point(12, 151);
             this.ekle.Name = "ekle";
-            this.ekle.Size = new System.Drawing.Size(432, 35);
+            this.ekle.Size = new System.Drawing.Size(516, 35);
             this.ekle.TabIndex = 26;
             this.ekle.Text = "DÜĞÜM EKLE";
             this.ekle.UseVisualStyleBackColor = true;
@@ -311,19 +302,18 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // textBox10
             // 
             this.textBox10.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(19, 538);
+            this.textBox10.Location = new System.Drawing.Point(534, 57);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(920, 236);
+            this.textBox10.Size = new System.Drawing.Size(432, 582);
             this.textBox10.TabIndex = 39;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(970, 806);
+            this.ClientSize = new System.Drawing.Size(974, 649);
             this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.treeView1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -349,8 +339,6 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
         }
 
         #endregion
-
-        private System.Windows.Forms.TreeView treeView1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;

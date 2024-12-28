@@ -59,6 +59,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
         {
             if (root1 == null)
             {
+                System.Windows.Forms.MessageBox.Show($"Silinmek istenen değer {value} bulunamadı.");
                 return root1;
             }
             if (value < root1.root)

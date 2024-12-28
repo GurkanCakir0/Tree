@@ -23,14 +23,14 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             if (int.TryParse(textBox1.Text, out int value))
             {
                 tree.root1 = tree.Insert(tree.root1, value);
-                MessageBox.Show($"{value} başarıyla eklendi.");
                 textBox1.Clear();
+                label1.Visible = true;
             }
             else
             {
                 MessageBox.Show("Lütfen geçerli bir sayı girin.");
             }
-            label1.Visible = true;
+
         }
 
         private void sil_Click(object sender, EventArgs e)
@@ -38,14 +38,14 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             if (int.TryParse(textBox2.Text, out int value))
             {
                 tree.root1 = tree.TreeDelete(tree.root1, value);
-                MessageBox.Show($"{value} başarıyla silindi.");
                 textBox2.Clear();
+                label2.Visible = true;
             }
             else
-            {
+            { 
                 MessageBox.Show("Lütfen geçerli bir sayı girin.");
             }
-            label2.Visible = true;
+            
         }
 
         private void bul_Click(object sender, EventArgs e)

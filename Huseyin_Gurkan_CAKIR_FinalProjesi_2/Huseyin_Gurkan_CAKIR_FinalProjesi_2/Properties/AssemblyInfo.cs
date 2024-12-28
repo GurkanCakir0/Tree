@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Huseyin_Gurkan_CAKIR_FINAL_Projesi2")]
+[assembly: AssemblyTitle("Huseyin_Gurkan_CAKIR_FinalProjesi_2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Huseyin_Gurkan_CAKIR_FINAL_Projesi2")]
+[assembly: AssemblyProduct("Huseyin_Gurkan_CAKIR_FinalProjesi_2")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("22f3c138-e480-46c5-95f7-1b33c7816d79")]
+[assembly: Guid("f3bdb934-92ae-480c-927f-62a97a9ca3a4")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Huseyin_Gurkan_CAKIR_FINAL_Projesi2
+namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
 {
     static class Program
     {

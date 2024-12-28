@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace Huseyin_Gurkan_CAKIR_FINAL_Projesi2.Properties
+namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2.Properties
 {
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]

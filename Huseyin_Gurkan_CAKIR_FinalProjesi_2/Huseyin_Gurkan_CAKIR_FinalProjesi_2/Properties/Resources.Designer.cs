@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace Huseyin_Gurkan_CAKIR_FINAL_Projesi2.Properties
+namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2.Properties
 {
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
@@ -43,7 +43,7 @@ namespace Huseyin_Gurkan_CAKIR_FINAL_Projesi2.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Huseyin_Gurkan_CAKIR_FINAL_Projesi2.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Huseyin_Gurkan_CAKIR_FinalProjesi_2.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{22F3C138-E480-46C5-95F7-1B33C7816D79}</ProjectGuid>
+    <ProjectGuid>{F3BDB934-92AE-480C-927F-62A97A9CA3A4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Huseyin_Gurkan_CAKIR_FINAL_Projesi2</RootNamespace>
-    <AssemblyName>Huseyin_Gurkan_CAKIR_FINAL_Projesi2</AssemblyName>
+    <RootNamespace>Huseyin_Gurkan_CAKIR_FinalProjesi_2</RootNamespace>
+    <AssemblyName>Huseyin_Gurkan_CAKIR_FinalProjesi_2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tree.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

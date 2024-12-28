@@ -55,6 +55,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             this.bul = new System.Windows.Forms.Button();
             this.sil = new System.Windows.Forms.Button();
             this.ekle = new System.Windows.Forms.Button();
+            this.textBox10 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -307,11 +308,21 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             this.ekle.UseVisualStyleBackColor = true;
             this.ekle.Click += new System.EventHandler(this.ekle_Click);
             // 
+            // textBox10
+            // 
+            this.textBox10.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox10.Location = new System.Drawing.Point(19, 538);
+            this.textBox10.Multiline = true;
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(920, 236);
+            this.textBox10.TabIndex = 39;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(970, 512);
+            this.ClientSize = new System.Drawing.Size(970, 806);
+            this.Controls.Add(this.textBox10);
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label3);
@@ -364,6 +375,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
         private System.Windows.Forms.Button bul;
         private System.Windows.Forms.Button sil;
         private System.Windows.Forms.Button ekle;
+        private System.Windows.Forms.TextBox textBox10;
     }
 }
 

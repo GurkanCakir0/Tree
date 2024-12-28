@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
 {
@@ -33,19 +34,22 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             root1 = new Tree(root);
             return root1;
         }
-
         public Tree Insert(Tree root1, int root)
         {
-            Tree leaf = new Tree(root);
+
             if (root1 != null)
             {
                 if (root < root1.root)
                 {
-                    root1.Left = Insert(root1.Left, root);
+                   root1.Left = Insert(root1.Left, root);
+                }
+                else if (root > root1.root)
+                {
+                    root1.Right = Insert(root1.Right, root);
                 }
                 else
                 {
-                    root1.Right = Insert(root1.Right, root);
+                   System.Windows.Forms.MessageBox.Show($"Değer {root} zaten mevcut. Tekrar eklenmedi.");
                 }
             }
             else
@@ -206,6 +210,17 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
                 return 1;
             }
             return LeafCount(root1.Left) + LeafCount(root1.Right);
+        }
+
+        public void PrintTree(Tree node, int level, TextBox textBox)
+        {
+            if (node != null)
+            {
+                PrintTree(node.Right, level + 1, textBox);
+                string nodeRepresentation = new string(' ', 4 * level) + node.root;
+                textBox.AppendText(nodeRepresentation + Environment.NewLine);
+                PrintTree(node.Left, level + 1, textBox);
+            }
         }
     }
 }

@@ -25,6 +25,8 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
                 tree.root1 = tree.Insert(tree.root1, Root);
                 textBox1.Clear();
                 label1.Visible = true;
+                label10.Visible = false;
+                label12.Visible = false;
             }
             else
             {
@@ -39,6 +41,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
                 tree.root1 = tree.TreeDelete(tree.root1, Root);
                 textBox2.Clear();
                 label2.Visible = true;
+                label11.Visible = false;
             }
             else
             { 
@@ -48,16 +51,27 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
 
         private void bul_Click(object sender, EventArgs e)
         {
-            if (int.TryParse(textBox3.Text, out int Root))
+
+            if (int.TryParse(textBox1.Text, out int Root))
             {
-                int height = tree.RootHeight(tree.root1) + 1;
-                MessageBox.Show($"Düğüm: {Root} düzeyi: {height}");
-                textBox3.Clear();
+                int level = tree.TreeSearch(tree.root1, Root, 1);
+                if (level == -1)
+                {
+                    MessageBox.Show($"Hatalı sorgu: {Root} değeri ağaçta bulunamadı!");
+                }
+                else
+                {
+                    textBox3.Text = level.ToString();
+                    label10.Visible = false;
+                    label12.Visible = true;
+                }
+                
             }
             else
             {
                 MessageBox.Show("Lütfen geçerli bir sayı girin.");
             }
+            textBox1.Clear();
         }
 
         private void bilgi_Click(object sender, EventArgs e)
@@ -84,16 +98,22 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
         {
             label1.Visible = false;
             label2.Visible = false;
+            label12.Visible = false;
         }
 
         private void textBox1_Enter(object sender, EventArgs e)
         {
             label1.Visible = false;
+            label10.Visible = true;
+            label12.Visible = false;
+            textBox3.Clear();
         }
 
         private void textBox2_Enter(object sender, EventArgs e)
         {
             label2.Visible = false;
+            label11.Visible = true;
+            textBox3.Clear();
         }
     }
 }

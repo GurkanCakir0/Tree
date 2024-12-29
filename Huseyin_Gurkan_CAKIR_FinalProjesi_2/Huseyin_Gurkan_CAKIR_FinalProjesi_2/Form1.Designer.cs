@@ -55,6 +55,9 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             this.sil = new System.Windows.Forms.Button();
             this.ekle = new System.Windows.Forms.Button();
             this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,7 +76,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.textBox9);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 324);
+            this.groupBox1.Location = new System.Drawing.Point(31, 323);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(516, 315);
             this.groupBox1.TabIndex = 37;
@@ -192,17 +195,17 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 96);
+            this.label3.Location = new System.Drawing.Point(17, 95);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(187, 26);
+            this.label3.Size = new System.Drawing.Size(201, 26);
             this.label3.TabIndex = 36;
-            this.label3.Text = "Düğümün Düzeyi";
+            this.label3.Text = "Düğümün Düzeyi :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(27, 56);
+            this.label2.Location = new System.Drawing.Point(46, 55);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(172, 26);
             this.label2.TabIndex = 35;
@@ -212,7 +215,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(14, 13);
+            this.label1.Location = new System.Drawing.Point(33, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(185, 26);
             this.label1.TabIndex = 34;
@@ -220,8 +223,9 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // 
             // textBox3
             // 
+            this.textBox3.Enabled = false;
             this.textBox3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(218, 93);
+            this.textBox3.Location = new System.Drawing.Point(237, 92);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(310, 34);
             this.textBox3.TabIndex = 33;
@@ -229,7 +233,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(218, 53);
+            this.textBox2.Location = new System.Drawing.Point(237, 52);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(310, 34);
             this.textBox2.TabIndex = 32;
@@ -238,7 +242,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(218, 13);
+            this.textBox1.Location = new System.Drawing.Point(237, 12);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(310, 34);
             this.textBox1.TabIndex = 31;
@@ -247,7 +251,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // bilgi
             // 
             this.bilgi.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bilgi.Location = new System.Drawing.Point(12, 283);
+            this.bilgi.Location = new System.Drawing.Point(31, 282);
             this.bilgi.Name = "bilgi";
             this.bilgi.Size = new System.Drawing.Size(516, 38);
             this.bilgi.TabIndex = 30;
@@ -258,7 +262,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // dugum
             // 
             this.dugum.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dugum.Location = new System.Drawing.Point(534, 13);
+            this.dugum.Location = new System.Drawing.Point(553, 12);
             this.dugum.Name = "dugum";
             this.dugum.Size = new System.Drawing.Size(432, 38);
             this.dugum.TabIndex = 29;
@@ -269,7 +273,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // bul
             // 
             this.bul.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bul.Location = new System.Drawing.Point(12, 233);
+            this.bul.Location = new System.Drawing.Point(31, 232);
             this.bul.Name = "bul";
             this.bul.Size = new System.Drawing.Size(516, 35);
             this.bul.TabIndex = 28;
@@ -280,7 +284,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // sil
             // 
             this.sil.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sil.Location = new System.Drawing.Point(12, 192);
+            this.sil.Location = new System.Drawing.Point(31, 191);
             this.sil.Name = "sil";
             this.sil.Size = new System.Drawing.Size(516, 35);
             this.sil.TabIndex = 27;
@@ -291,7 +295,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // ekle
             // 
             this.ekle.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ekle.Location = new System.Drawing.Point(12, 151);
+            this.ekle.Location = new System.Drawing.Point(31, 150);
             this.ekle.Name = "ekle";
             this.ekle.Size = new System.Drawing.Size(516, 35);
             this.ekle.TabIndex = 26;
@@ -302,17 +306,50 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             // textBox10
             // 
             this.textBox10.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(534, 57);
+            this.textBox10.Location = new System.Drawing.Point(553, 56);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(432, 582);
             this.textBox10.TabIndex = 39;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(10, 15);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(208, 26);
+            this.label10.TabIndex = 40;
+            this.label10.Text = "Düğüm Ekle / Bul :";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(85, 55);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(133, 26);
+            this.label11.TabIndex = 41;
+            this.label11.Text = "Düğüm Sil :";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(24, 15);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(194, 26);
+            this.label12.TabIndex = 42;
+            this.label12.Text = "Düğüm Bulundu :";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(974, 649);
+            this.ClientSize = new System.Drawing.Size(997, 649);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label3);
@@ -364,6 +401,9 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
         private System.Windows.Forms.Button sil;
         private System.Windows.Forms.Button ekle;
         private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
     }
 }
 

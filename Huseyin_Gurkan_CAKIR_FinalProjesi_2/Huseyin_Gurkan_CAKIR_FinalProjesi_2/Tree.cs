@@ -101,25 +101,23 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
             return minValue;
         }
 
-        public bool TreeSearch(Tree root1, int value)
+        public int TreeSearch(Tree node, int value, int level)
         {
-            if (root1 == null)
+            if (node == null)
             {
-                return false;
-            }
-            if (root1.root == value)
-            {
-                return true;
+                return -1;
             }
 
-            if (value < root1.root)
+            if (node.root == value)
             {
-                return TreeSearch(root1.Left, value);
+                return level;
             }
-            else
+            int leftLevel = TreeSearch(node.Left, value, level + 1);
+            if (leftLevel != -1)
             {
-                return TreeSearch(root1.Right, value);
+                return leftLevel;
             }
+            return TreeSearch(node.Right, value, level + 1);
         }
 
         public List<int> PreOrder(Tree root)
@@ -180,7 +178,7 @@ namespace Huseyin_Gurkan_CAKIR_FinalProjesi_2
         {
             if (root1 == null)
             {
-                return -1;
+                return 0;
             }
             else
             {
